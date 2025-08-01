@@ -26,5 +26,6 @@ int main()
     fprintf(pf,"%s",arr);
     fclose(pf);
     pf=NULL;
+    free(arr);
     return 0;
 }
